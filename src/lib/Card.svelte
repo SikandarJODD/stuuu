@@ -1,11 +1,13 @@
 <script type="module">
 	import imgMain from './main.jpg';
+	import SmallCard from './SmallCard.svelte';
 </script>
 
 <div class="container">
 	<div class="card">
 		<h1>Welcome to Fili - Phili</h1>
 		<h2>Sikandar.S.Bhide</h2>
+		<SmallCard />
 	</div>
 
 	<div class="img-card">
@@ -16,6 +18,7 @@
 <style>
 	.container {
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-between;
 		margin: 10px 0;
 	}

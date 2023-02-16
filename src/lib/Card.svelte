@@ -1,4 +1,4 @@
-<script type="module">
+<script>
 	import imgMain from './main.jpg';
 	import SmallCard from './SmallCard.svelte';
 </script>
@@ -7,7 +7,9 @@
 	<div class="card">
 		<h1>Welcome to Fili - Phili</h1>
 		<h2>Sikandar.S.Bhide</h2>
-		<SmallCard />
+		<div class="active">
+			<SmallCard />
+		</div>
 	</div>
 
 	<div class="img-card">
@@ -44,5 +46,26 @@
 		color: rgb(210, 219, 232);
 		font-family: monospace;
 		font-size: 1.3rem;
+	}
+	@media (min-width: 320px) {
+		/* smartphones, iPhone, portrait 480x320 phones */
+		h1 {
+			font-size: 2.3rem;
+		}
+		.container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		.img-card img {
+			width: 270px;
+			height: 370px;
+			bottom: 0;
+			margin: 30px 0;
+		}
+		.active {
+			display: none;
+		}
 	}
 </style>

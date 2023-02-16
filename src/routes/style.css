@@ -15,7 +15,7 @@ body {
 	/* background: radial-gradient(circle, rgba(10, 80, 111, 1) 16%, rgba(3, 67, 96, 1) 93%); */
 	font-family: sans-serif;
 }
-@media (max-width: 350px) {
+@media (max-width: 380px) {
 	/* smartphones, iPhone, portrait 480x320 phones */
 	body {
 		display: flex;

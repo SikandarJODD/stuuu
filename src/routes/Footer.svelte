@@ -1,7 +1,7 @@
 <footer>
 	<div>
 		<p>
-			Made in Love ❤️ (-_-) <span
+			Made in Love ❤️ <span
 				>Developed by <a
 					target="_blank"
 					rel="noreferrer"
@@ -18,13 +18,14 @@
 	}
 	footer {
 		display: flex;
-		position: fixed;
-		bottom: 0;
-		right: calc(70vw / 2);
-		height: 40px;
+		justify-content: center;
 	}
 	footer > div {
 		display: flex;
+		position: fixed;
+		bottom: 0;
+		height: 40px;
+		place-items: center;
 	}
 	a {
 		color: aqua;

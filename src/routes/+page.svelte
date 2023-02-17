@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>Stuu</title>
+	<title>Stuuu</title>
 	<link rel="shortcut icon" href={Icon} type="image/x-icon" />
 	<meta name="description" content="Website by Sikandar.S.Bhide , Made in Love " />
 	<meta

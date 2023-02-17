@@ -1,4 +1,6 @@
 <script>
+	import CardContent from './CardContent.svelte';
+	import IconCard from './IconCard.svelte';
 	import imgMain from './main.jpg';
 	import SmallCard from './SmallCard.svelte';
 </script>
@@ -9,6 +11,8 @@
 		<h2>Sikandar.S.Bhide</h2>
 		<div class="active">
 			<SmallCard />
+			<IconCard />
+			<CardContent />
 		</div>
 	</div>
 
@@ -35,7 +39,9 @@
 	}
 	.img-card > img:hover {
 		transition: all 0.3s ease;
-		transform: scale(1.04);
+		border: 2px solid white;
+		box-shadow: 10px 10px 0px #01101e, 11px 11px 0px #fff;
+		transform: translate(-5px, -5px);
 	}
 	h1 {
 		margin: 10px 0;
@@ -47,6 +53,8 @@
 		font-family: monospace;
 		font-size: 1.3rem;
 	}
+	/*  image animation */
+
 	@media (max-width: 380px) {
 		/* smartphones, iPhone, portrait 480x320 phones */
 		h1 {

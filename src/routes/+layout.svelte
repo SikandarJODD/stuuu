@@ -55,9 +55,12 @@
 		transition: all 0.3s ease;
 	}
 	ul > li > a:hover {
-		background: #173756;
+		/* background: #173756; */
+		background: #173b5f;
+		transition: all 0.3s ease;
 	}
 	.active {
+		transition: all 0.3s ease;
 		border: 1px solid rgb(42, 125, 248);
 		background-color: #03142379;
 	}

@@ -33,7 +33,7 @@
 		height: 500px;
 		border-radius: 40px;
 		position: relative;
-		bottom: 20px;
+		/* bottom: 20px; */
 		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 		transition: all 0.3s ease;
 	}
@@ -55,6 +55,18 @@
 	}
 	/*  image animation */
 
+	@media screen and (min-width: 700px) and (max-width: 1050px) {
+		.img-card img {
+			width: 340px;
+			height: 480px;
+		}
+	}
+	@media screen and (min-width: 1200px) and (max-width: 1500px) {
+		.img-card img {
+			width: 380px;
+			height: 500px;
+		}
+	}
 	@media (max-width: 380px) {
 		/* smartphones, iPhone, portrait 480x320 phones */
 		h1 {

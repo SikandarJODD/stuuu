@@ -5,7 +5,7 @@
 }
 body {
 	/* width: 100vw; */
-	padding: 0px 17%;
+	padding: 0px 7%;
 	color: #dfebfa;
 	/* background-color: #00202e; */
 	background-color: #012839;
@@ -20,5 +20,10 @@ body {
 	body {
 		display: flex;
 		padding: 0px;
+	}
+}
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+	body {
+		padding: 0 17%;
 	}
 }

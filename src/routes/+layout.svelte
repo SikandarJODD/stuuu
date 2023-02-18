@@ -65,4 +65,13 @@
 		border: 1px solid rgb(42, 125, 248);
 		background-color: #03142379;
 	}
+
+	@media (max-width: 768px) {
+		ul {
+			margin: 10px auto;
+		}
+		ul > li {
+			margin: 10px 0px;
+		}
+	}
 </style>

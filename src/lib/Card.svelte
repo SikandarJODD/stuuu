@@ -79,13 +79,17 @@
 	@media (max-width: 380px) {
 		/* smartphones, iPhone, portrait 480x320 phones */
 		h1 {
-			font-size: 2.3rem;
+			font-size: 2rem;
+		}
+		h2 {
+			text-align: center;
 		}
 		.container {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
+			padding: 10px;
 		}
 		.img-card img {
 			width: 270px;

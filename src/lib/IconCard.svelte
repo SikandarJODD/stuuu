@@ -7,7 +7,7 @@
 <div class="icon-card">
 	<div class="img-card">
 		<a target="_blank" rel="noreferrer" href="https://github.com/SikandarJODD">
-			<img src={githubIcon} alt="github" width="40" />
+			<img src={githubIcon} alt="github" />
 		</a>
 	</div>
 	<div class="img-card">
@@ -16,13 +16,13 @@
 			rel="noreferrer"
 			href="https://www.linkedin.com/in/sikandar-bhide-911988211/"
 		>
-			<img src={LinkedInIcon} alt="github" width="40" />
+			<img src={LinkedInIcon} alt="github" />
 		</a>
 	</div>
 
 	<div class="img-card">
 		<a target="_blank" rel="noreferrer" href="https://www.instagram.com/sikandar.s.bhide/">
-			<img src={InstagramIcon} alt="github" width="40" />
+			<img src={InstagramIcon} alt="github" />
 		</a>
 	</div>
 </div>
@@ -48,5 +48,10 @@
 		transition: all 0.3s ease;
 		background: rgba(56, 103, 136, 0.724);
 		/* background: rgba(56, 103, 136, 0.724); */
+	}
+	@media screen and (min-width: 700px) and (max-width: 1050px) {
+		img {
+			width: 30px;
+		}
 	}
 </style>

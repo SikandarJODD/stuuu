@@ -55,13 +55,22 @@
 	}
 	/*  image animation */
 
-	@media screen and (min-width: 700px) and (max-width: 1050px) {
+	@media screen and (min-width: 700px) and (max-width: 1100px) {
+		.container {
+			padding: 0px 6%;
+		}
+		h1 {
+			font-size: 2.5rem;
+		}
 		.img-card img {
-			width: 340px;
-			height: 480px;
+			width: 300px;
+			height: 400px;
 		}
 	}
 	@media screen and (min-width: 1200px) and (max-width: 1500px) {
+		.container {
+			padding: 0px 17%;
+		}
 		.img-card img {
 			width: 380px;
 			height: 500px;

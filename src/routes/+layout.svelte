@@ -1,6 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 	import Footer from './Footer.svelte';
+	import Icon from './icon.jpg';
 	import './style.css';
 
 	$: path = $page.route.id;

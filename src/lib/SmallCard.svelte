@@ -13,7 +13,7 @@
 		background-color: #03142379;
 		border: 1px solid rgb(42, 125, 248);
 	}
-	@media screen and (min-width: 700px) and (max-width: 1050px) {
+	@media screen and (min-width: 700px) and (max-width: 1300px) {
 		h2 {
 			text-align: center;
 			font-size: 1.2rem;

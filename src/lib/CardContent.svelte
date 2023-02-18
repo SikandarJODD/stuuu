@@ -23,7 +23,7 @@
 		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
 			Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	}
-	@media screen and (min-width: 700px) and (max-width: 1050px) {
+	@media screen and (min-width: 700px) and (max-width: 1300px) {
 		.content-card {
 			width: 430px;
 			font-size: 1.1rem;

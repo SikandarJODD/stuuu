@@ -55,7 +55,7 @@
 	}
 	/*  image animation */
 
-	@media screen and (min-width: 700px) and (max-width: 1100px) {
+	@media screen and (min-width: 700px) and (max-width: 1300px) {
 		.container {
 			padding: 0px 6%;
 		}
@@ -67,7 +67,7 @@
 			height: 400px;
 		}
 	}
-	@media screen and (min-width: 1200px) and (max-width: 1500px) {
+	@media screen and (min-width: 1350px) and (max-width: 1500px) {
 		.container {
 			padding: 0px 17%;
 		}

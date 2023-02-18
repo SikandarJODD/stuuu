@@ -49,7 +49,7 @@
 		background: rgba(56, 103, 136, 0.724);
 		/* background: rgba(56, 103, 136, 0.724); */
 	}
-	@media screen and (min-width: 700px) and (max-width: 1050px) {
+	@media screen and (min-width: 700px) and (max-width: 1300px) {
 		img {
 			width: 30px;
 		}

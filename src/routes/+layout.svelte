@@ -31,7 +31,9 @@
 			<li><a href={tab.link} class:active={path == tab.link}>{tab.title}</a></li>
 		{/each}
 	</ul>
-	<slot />
+	<div class="container">
+		<slot />
+	</div>
 	<Footer />
 </main>
 
@@ -73,5 +75,9 @@
 		ul > li {
 			margin: 10px 0px;
 		}
+	}
+	.container {
+		margin: 20px 0 0 0;
+		padding: 0px 5%;
 	}
 </style>

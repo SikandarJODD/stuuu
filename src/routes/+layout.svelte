@@ -80,4 +80,9 @@
 		margin: 20px 0 0 0;
 		padding: 0px 5%;
 	}
+	@media (min-width: 1000px) {
+		.container {
+			padding: 0;
+		}
+	}
 </style>

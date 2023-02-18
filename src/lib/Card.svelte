@@ -55,9 +55,9 @@
 	}
 	/*  image animation */
 
-	@media screen and (min-width: 700px) and (max-width: 1300px) {
+	@media screen and (min-width: 700px) and (max-width: 1350px) {
 		.container {
-			padding: 0px 6%;
+			padding: 0px 10%;
 		}
 		h1 {
 			font-size: 2.5rem;

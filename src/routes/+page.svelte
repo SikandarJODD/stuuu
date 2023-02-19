@@ -2,6 +2,7 @@
 	import Card from '$lib/Card.svelte';
 	import './style.css';
 	import Icon from './icon.jpg';
+	import ImgCard from '$lib/ImageGall/ImgCard.svelte';
 </script>
 
 <svelte:head>
@@ -17,6 +18,7 @@
 <div class="container">
 	<!-- <h1>Welcome to Fili - Phili</h1> -->
 	<Card />
+	<ImgCard />
 </div>
 
 <style>

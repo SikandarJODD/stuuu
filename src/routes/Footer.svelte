@@ -22,7 +22,7 @@
 	}
 	footer > div {
 		display: flex;
-		position: fixed;
+		/* position: fixed; */
 		bottom: 0;
 		height: 40px;
 		place-items: center;

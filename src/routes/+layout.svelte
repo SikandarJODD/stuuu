@@ -1,9 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 	import Footer from './Footer.svelte';
-	import Icon from './icon.jpg';
 	import './style.css';
-
 	$: path = $page.route.id;
 	let navs = [
 		{
@@ -75,10 +73,10 @@
 		ul > li {
 			margin: 10px 0px;
 		}
-	}
-	.container {
-		margin: 20px 0 0 0;
-		padding: 0px 5%;
+		.container {
+			margin: 20px 0 0 0;
+			padding: 0px 5%;
+		}
 	}
 	@media (min-width: 1000px) {
 		.container {

@@ -114,10 +114,28 @@
 
 	/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 	@media screen and (max-width: 600px) {
+		.row {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+		}
 		.column {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
 			-ms-flex: 100%;
 			flex: 100%;
 			max-width: 100%;
+		}
+		.medium {
+			width: 310px;
+			height: 300px;
+		}
+		.large {
+			width: 310px;
+			height: 400px;
 		}
 	}
 	@media screen and (min-width: 900px) and (max-width: 1290px) {

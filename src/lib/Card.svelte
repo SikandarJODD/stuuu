@@ -96,8 +96,8 @@
 			bottom: 0;
 			margin: 30px 0;
 		}
-		/* .active {
+		.active {
 			display: none;
-		} */
+		}
 	}
 </style>

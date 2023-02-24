@@ -10,8 +10,8 @@
 		<h1>Welcome to Fili - Phili</h1>
 		<h2>Sikandar.S.Bhide</h2>
 		<div class="active">
-			<SmallCard />
 			<IconCard />
+			<SmallCard />
 			<CardContent />
 		</div>
 	</div>
@@ -94,7 +94,7 @@
 			width: 270px;
 			height: 370px;
 			bottom: 0;
-			margin: 30px 0;
+			margin: 20px 0;
 		}
 		.active {
 			display: none;

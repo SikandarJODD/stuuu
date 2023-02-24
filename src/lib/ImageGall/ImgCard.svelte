@@ -47,15 +47,14 @@
 		<div class="column">
 			<img src={img4large} class="all mobile large" alt="aesthetic" />
 			<img src={img5medium} class="all mobile medium" alt="aesthetic" />
-			<img src={img2large} class="all mobile large" alt="aesthetic" />
+			<img src={img12medium} class="all mobile medium" alt="aesthetic" />
 		</div>
 		<div class="column">
 			<img src={img1medium} class="all mobile medium" alt="aesthetic" />
 			<img src={img1large} class="all mobile large" alt="aesthetic" />
 			<img src={img9medium} class="all mobile medium" alt="aesthetic" />
-			<!-- <img src={img12medium} class="all mobile medium" alt="aesthetic" /> -->
 		</div>
-		<div class="column">
+		<!-- <div class="column">
 			<img src={img4medium} class="all mobile medium" alt="aesthetic" />
 			<img src={img13medium} class="all mobile medium" alt="aesthetic" />
 			<img src={img5large} class="all mobile large" alt="aesthetic" />
@@ -67,16 +66,8 @@
 		</div>
 		<div class="column">
 			<img src={img8medium} class="all mobile medium" alt="aesthetic" />
-			<!-- <img src={img10medium} class="all medium mobile" alt="aesthetic" /> -->
 			<img src={img1medium} class="all mobile medium" alt="aesthetic" />
 			<img src={img8large} class="all mobile large" alt="aesthetic" />
-		</div>
-		<!-- <div class="column"> -->
-		<!-- <img src={img10large} class="all mobile large" alt="aesthetic" /> -->
-		<!-- <img src={img9large} class="all mobile large" alt="aesthetic" /> -->
-		<!-- </div> -->
-		<!-- <div class="column">
-			<img src={img6medium} class="all mobile medium" alt="aesthetic" />
 		</div> -->
 	</div>
 </main>
@@ -120,7 +111,7 @@
 		/* width: 100%; */
 	}
 	/* Responsive layout - makes a two column-layout instead of four columns */
-	@media screen and (max-width: 800px) {
+	/* @media screen and (max-width: 800px) {
 		.column {
 			-ms-flex: 50%;
 			flex: 50%;
@@ -132,7 +123,7 @@
 		img {
 			margin: 10px;
 		}
-	}
+	} */
 
 	/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 	@media screen and (max-width: 600px) {
@@ -162,7 +153,7 @@
 		}
 		.large {
 			width: 310px;
-			height: 400px;
+			height: 460px;
 		}
 	}
 	@media screen and (min-width: 900px) and (max-width: 1290px) {

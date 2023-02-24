@@ -22,4 +22,7 @@
 </div>
 
 <style>
+	/* .container {
+		padding: 0% 3%;
+	} */
 </style>

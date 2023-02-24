@@ -50,7 +50,7 @@
 	}
 	@media screen and (min-width: 501px) {
 		img {
-			width: 44px;
+			width: 40px;
 		}
 	}
 	@media screen and (max-width: 500px) {

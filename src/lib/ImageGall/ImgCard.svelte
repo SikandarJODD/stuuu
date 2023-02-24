@@ -153,7 +153,7 @@
 		}
 		.large {
 			width: 310px;
-			height: 460px;
+			height: 490px;
 		}
 	}
 	@media screen and (min-width: 900px) and (max-width: 1290px) {

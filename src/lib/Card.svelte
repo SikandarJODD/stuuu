@@ -67,7 +67,7 @@
 			height: 400px;
 		}
 	}
-	@media screen and (min-width: 1350px) and (max-width: 1500px) {
+	@media screen and (min-width: 1350px) {
 		.container {
 			padding: 0px 17%;
 		}
@@ -94,10 +94,10 @@
 			width: 270px;
 			height: 370px;
 			bottom: 0;
-			margin: 20px 0;
+			margin: 30px 0;
 		}
-		.active {
+		/* .active {
 			display: none;
-		}
+		} */
 	}
 </style>
